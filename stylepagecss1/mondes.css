@@ -1,0 +1,483 @@
+body {
+    background-color:blanchedalmond;
+    background-repeat: no-repeat;
+}
+
+li {
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    z-index: 999;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    min-width: 150px;
+    padding: 30px 35px;
+    text-decoration: none;
+    transition-duration: 1s;
+    list-style-type: none;
+    z-index: 999;
+}
+
+li a:hover {
+    background-color:#333;
+    color:red;
+}
+
+#barre ul li ul {
+    display: none;
+}
+
+#barre li:hover ul li {
+    float: none;
+}
+
+#barre ul li:hover ul {
+    display: block;
+}
+
+#barre li ul {
+    position: absolute;
+}
+
+body {
+    margin:0;
+}
+
+.main {
+    margin-top: 20px;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.submain {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+.submain p {
+    text-align: justify;
+}
+
+.description p::before {
+    background-image: url(starpiece.png);
+}
+
+.description p::before {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    top: 0.2rem;
+    margin-left: 0.4rem;
+    content: "";
+    background-size: contain;
+}
+
+.description1 p::before {
+    background-image: url(purplecoin.png);
+}
+
+.description1 p::before {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    top: 0.2rem;
+    margin-left: 0.4rem;
+    content: "";
+    background-size: contain;
+}
+
+.description2 p::before {
+    background-image: url(starpiece.png);
+}
+
+.description2 p::before {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    top: 0.2rem;
+    margin-left: 0.4rem;
+    content: "";
+    background-size: contain;
+}
+
+.description3 p::before {
+    background-image: url(purplecoin1.png);
+}
+
+.description3 p::before {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    top: 0.2rem;
+    margin-left: 0.4rem;
+    content: "";
+    background-size: contain;
+}
+
+.description4 p::before {
+    background-image: url(starpiece.png);
+}
+
+.description4 p::before {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    top: 0.2rem;
+    margin-left: 0.4rem;
+    content: "";
+    background-size: contain;
+}
+
+.description5 p::before {
+    background-image: url(purplecoin2.png);
+}
+
+.description5 p::before {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    top: 0.2rem;
+    margin-left: 0.4rem;
+    content: "";
+    background-size: contain;
+}
+
+.main {
+    margin-top: 20px;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.submain {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+.submain p {
+    text-align: justify;
+}
+
+.main img:hover {
+    width: 470px;
+    height: 310px;
+    transition: 1s;
+}
+
+.main1 {
+    margin-top: 50px;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.submain1 {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+.submain1 p {
+    text-align: justify;
+}
+
+.main1 img:hover {
+    width: 470px;
+    height: 310px;
+    transition: 1s;
+}
+
+.description6 p::before {
+    background-image: url(starpiece.png);
+}
+
+.description6 p::before {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    top: 0.2rem;
+    margin-left: 0.4rem;
+    content: "";
+    background-size: contain;
+}
+
+.description7 p::before {
+    background-image: url(purplecoin3.png);
+}
+
+.description7 p::before {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    top: 0.2rem;
+    margin-left: 0.4rem;
+    content: "";
+    background-size: contain;
+}
+
+.description8 p::before {
+    background-image: url(starpiece.png);
+}
+
+.description8 p::before {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    top: 0.2rem;
+    margin-left: 0.4rem;
+    content: "";
+    background-size: contain;
+}
+
+.description9 p::before {
+    background-image: url(purplecoin4.jpg);
+}
+
+.description9 p::before {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    top: 0.2rem;
+    margin-left: 0.4rem;
+    content: "";
+    background-size: contain;
+}
+
+.description10 p::before {
+    background-image: url(starpiece.png);
+}
+
+.description10 p::before {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    top: 0.2rem;
+    margin-left: 0.4rem;
+    content: "";
+    background-size: contain;
+}
+
+.description11 p::before {
+    background-image: url(purplecoin5.jpg);
+}
+
+.description11 p::before {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    top: 0.2rem;
+    margin-left: 0.4rem;
+    content: "";
+    background-size: contain;
+}
+
+.main2 {
+    margin-top: 50px;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.submain2 {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+.submain2 p {
+    text-align: justify;
+}
+
+.main2 img:hover {
+    width: 470px;
+    height: 310px;
+    transition: 1s;
+}
+
+.description12 p::before {
+    background-image: url(starpiece.png);
+}
+
+.description12 p::before {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    top: 0.2rem;
+    margin-left: 0.4rem;
+    content: "";
+    background-size: contain;
+}
+
+.description13 p::before {
+    background-image: url(purplecoin6.jpg);
+}
+
+.description13 p::before {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    top: 0.2rem;
+    margin-left: 0.4rem;
+    content: "";
+    background-size: contain;
+}
+
+.description14 p::before {
+    background-image: url(starpiece.png);
+}
+
+.description14 p::before {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    top: 0.2rem;
+    margin-left: 0.4rem;
+    content: "";
+    background-size: contain;
+}
+
+.description15 p::before {
+    background-image: url(purplecoin7.png);
+}
+
+.description15 p::before {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    top: 0.2rem;
+    margin-left: 0.4rem;
+    content: "";
+    background-size: contain;
+}
+
+.description16 p::before {
+    background-image: url(starpiece.png);
+}
+
+.description16 p::before {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    top: 0.2rem;
+    margin-left: 0.4rem;
+    content: "";
+    background-size: contain;
+}
+
+.description17 p::before {
+    background-image: url(purplecoin8.jpg);
+}
+
+.description17 p::before {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    top: 0.2rem;
+    margin-left: 0.4rem;
+    content: "";
+    background-size: contain;
+}
+
+.main3 {
+    margin-top: 50px;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.submain3 {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+.submain3 p {
+    text-align: justify;
+}
+
+.main3 img:hover {
+    width: 470px;
+    height: 310px;
+    transition: 1s;
+}
+
+.description18 p::before {
+    background-image: url(starpiece.png);
+}
+
+.description18 p::before {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    top: 0.2rem;
+    margin-left: 0.4rem;
+    content: "";
+    background-size: contain;
+}
+
+.description19 p::before {
+    background-image: url(purplecoin9.jpg);
+}
+
+.description19 p::before {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    top: 0.2rem;
+    margin-left: 0.4rem;
+    content: "";
+    background-size: contain;
+}
+
+.description20 p::before {
+    background-image: url(starpiece.png);
+}
+
+.description20 p::before {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    top: 0.2rem;
+    margin-left: 0.4rem;
+    content: "";
+    background-size: contain;
+}
+
+.description21 p::before {
+    background-image: url(purplecoin10.jpg);
+}
+
+.description21 p::before {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    top: 0.2rem;
+    margin-left: 0.4rem;
+    content: "";
+    background-size: contain;
+}
